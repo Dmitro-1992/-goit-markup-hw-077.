@@ -28,8 +28,8 @@ html {
 *, *::before, *::after{
   box-sizing: border-box;  
 }
-  @import "./_header.css";
-  @import "./_variables.css ";
+@import './_header.ccs';
+@import './_variables.css';
 body {
   margin: 0;
   padding: 0;
