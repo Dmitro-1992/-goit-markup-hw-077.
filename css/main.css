@@ -1,1 +1,42 @@
-/*# sourceMappingURL=main.css.map */
+.header {
+  /* border: 1px solid #ECECEC; */
+  background-color: var(--logo-footer-color);
+  border-bottom: 1px solid #ECECEC;
+}
+
+.header_nav-flex {
+  align-items: center;
+  display: flex;
+}
+
+header_nav {
+  align-items: center;
+  display: flex;
+}
+
+.header_part-logo {
+  color: var(--accent-color);
+}
+
+.site-nav {
+  display: flex;
+}
+
+.nav-indet {
+  margin-left: 93px;
+}
+
+.site-nav_list + .site-nav_list {
+  margin-left: 50px;
+}
+
+.logo {
+  color: var(--logo-nav-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  font-size: normal;
+  text-decoration: none;
+  font-style: normal;
+}/*# sourceMappingURL=main.css.map */

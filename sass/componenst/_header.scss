@@ -1,15 +1,78 @@
 .header{
     /* border: 1px solid #ECECEC; */
-    background-color: var(--logo-footer-color);
+    background-color:$logo-footer-color;
     border-bottom:1px solid #ECECEC;
     }
-    .header-nav {
-        align-items: center;
-        display: flex;
-      }
+   
+    .header_nav-flex {
+      align-items: center;
+      display: flex;
+    }
+    header_nav {
+      align-items: center;
+      display: flex;
+    }
+
+      .header_part-logo {
+        color:$accent-color;
+      } 
+      .site-nav{
+        display: flex;  
+        }
+        .nav-indet{
+          margin-left: 93px;
+        }
+        .site-nav_list+ .site-nav_list{
+          margin-left: 50px;
+        }
+
+.site-nav_link--current::after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 4px;
+  border-radius: 2px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color:$accent-color;
+
+}
+
+.site-nav_list+ .site-nav_list{
+  margin-left: 50px;
+}
+
+.site-nav_link{
+position: relative;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  transition-duration:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+      
+}
+.site-nav_link--current {
+  color: $accent-color;
+}
+/* сайт nav */
+
+.site-nav_link:hover,
+.site-nav_link:focus {
+    color: $accent-color;
+ } 
+
+
       .logo{
 
-        color: var(--logo-nav-color);
+        color: $logo-nav-color;
         font-family: Raleway, sans-serif;
       
         font-weight: 700;
@@ -20,6 +83,4 @@
         font-style: normal;
        }
 
-      .part-logo {
-         color: var(--accent-color);
-          }
+     

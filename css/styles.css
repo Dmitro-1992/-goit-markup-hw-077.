@@ -8,7 +8,7 @@
 /*сексыя наша команджа #757575 */
 /* акцент#2196F3; */
 
-/* :root {
+ :root {
    --primary-text-color: #212121;
    --title-text-paragraph: #757575;
    --accent-color: #2196F3;
@@ -19,7 +19,7 @@
    --h1-color:#2F303A;
    --cube-color:cubic-bezier(0.4, 0, 0.2, 1);
    --form-input-color:rgba(33, 33, 33, 0.2);
-} */
+} 
 
 
 html {
@@ -54,11 +54,11 @@ body {
  
 
 
-.site-nav{
+.header_site-nav{
 display: flex;  
 margin-left: 93px;
 }
-.header-nav{
+.header_nav{
   align-items: center;
   display: flex;
 }
@@ -117,7 +117,6 @@ h1, h2, h3, p{
   /* padding-bottom: 94px; */
 }
 
-
   /* padding-top: 94; *
 /* .section {
 margin-bottom: 0;
@@ -126,7 +125,7 @@ margin-top: 0%;
 
   /* logo */
 
- /* .logo{
+  .logo{
 
   color: var(--logo-nav-color);
   font-family: Raleway, sans-serif;
@@ -137,11 +136,11 @@ margin-top: 0%;
   font-size: normal;
   text-decoration: none;
   font-style: normal;
- }  */
-/* 
-.part-logo {
+ }  
+
+.header_part-logo {
   color: var(--accent-color);
-} */
+} 
 /* логин в футаре */
 .logo-logo{
   margin-bottom: 20px;
@@ -370,8 +369,10 @@ margin-top: 0%;
 
 .site-nav {
   display: flex;
-  margin-left: 93px;
 }
+ .nav-indet{
+  margin-left: 93px;
+} 
 
 .header-nav {
   align-items: center;
@@ -382,12 +383,12 @@ margin-top: 0%;
   margin-left: auto;
 }
 
-.nav-flex {
+.header_nav-flex {
   align-items: center;
   display: flex;
 }
 
-.site-nav  .link.current::after {
+.site-nav_link--current::after {
   position: absolute;
   content: "";
   display: block;
@@ -400,11 +401,11 @@ margin-top: 0%;
 
 }
 
-.site-nav .list+ .list{
+.site-nav_list+ .site-nav_list{
   margin-left: 50px;
 }
 
-.site-nav .link{
+.site-nav_link{
 position: relative;
 
   padding-top: 32px;
@@ -418,21 +419,21 @@ position: relative;
   transition-duration:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-   
+
 }
-.site-nav .link.current {
+.site-nav_link--current {
   color: var(--accent-color);
 }
 /* сайт nav */
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav_link:hover,
+.site-nav_link:focus {
     color: var(--accent-color);
  } 
 
 
  /* ul contact  header*/
- .text .link{
+ .header_text .header_link{
   align-items: center;
   display: inline-flex;
   color:var(--title-text-paragraph);
@@ -444,23 +445,27 @@ position: relative;
   letter-spacing: 0.02em;
   text-decoration: none;
    }
- .text .header-icon:hover,
- .text .header-icon:focus,
- .text .link:hover, 
- .text .link:focus{
+ .header_text .header_icon:hover,
+ .header_text .header_icon:focus,
+ .header_text .header_link:hover, 
+ .header_text .header_link:focus{
    color: var(--accent-color);
    fill: var(--accent-color);
  }
-  .header-icon{
+  .header_icon{
   fill: currentColor;
   }
 
-  .text{
+  .header_text{
     display: flex;
-    margin-left: auto;
+   
    
  }
- .text .list + .list{
+ .header_auto{
+  margin-left: auto;
+}
+
+ .header_text .header_list + .header_list{
    margin-left: 50px;
  }
  
