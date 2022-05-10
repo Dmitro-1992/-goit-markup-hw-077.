@@ -3,7 +3,7 @@
     background-color:$logo-footer-color;
     border-bottom:1px solid #ECECEC;
     }
-   
+  
  .header_nav-flex {
       align-items: center;
       display: flex;
@@ -14,7 +14,7 @@
 }
 
   .header_part-logo {
-        color:$accent-color;
+        color:var($accent-color);
    } 
    .site-nav{
         display: flex;  
