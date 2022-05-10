@@ -62,12 +62,17 @@ margin-left: 93px;
   align-items: center;
   display: flex;
 }
-.text  .list{
+.header_text  .header_list{
   margin-left: auto;
 }
-.nav-flex {
+.header_nav-flex {
   align-items: center;
   display: flex;
+}
+.header_icon{
+  width: 15px;
+  height: 16px;
+  margin-right: 10px;
 }
 
  
@@ -94,11 +99,7 @@ h1, h2, h3, p{
   margin: 0;
   padding: 0;
 }
-.header-icon{
-  width: 15px;
-  height: 16px;
-  margin-right: 10px;
-}
+
 
  .section .no-podding {
   padding-top: 0;
